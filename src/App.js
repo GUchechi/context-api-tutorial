@@ -1,3 +1,4 @@
+import React,  {useContext} from 'react';
 import './App.css';
 import Contact from './components/Contact';
 
