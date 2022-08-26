@@ -1,9 +1,9 @@
 import React from 'react'
 
-const ContactInfo = () => {
+const ContactInfo = ({number}) => {
   return (
     <div>
-        <h1>Info</h1>
+        <h1>{number}</h1>
     </div>
   )
 }
