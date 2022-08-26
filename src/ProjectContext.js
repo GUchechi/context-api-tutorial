@@ -3,5 +3,15 @@ import React, { createContext, useState} from 'react';
 export const ProjectContext = createContext();
 
 export const ProjectState = ({children}) => {
-    return ProjectContext.Provider({children});
+    const [name, SetName] = useState("")
+
+    const handler = () => {
+        console.log("Hello World!");
+    }
+
+    return (
+        <ProjectContext.Provider value={{name, SetName, handler}}>
+           {children}
+        </ProjectContext.Provider>
+    )
 }
