@@ -5,8 +5,11 @@ export const ProjectContext = createContext();
 export const ProjectState = ({children}) => {
     const [name, SetName] = useState("John")
 
+
     const handler = () => {
-        console.log("Hello World!");
+        const newValue = "God is great"
+
+        SetName(newValue)
     }
 
     return (
