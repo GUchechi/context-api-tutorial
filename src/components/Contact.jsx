@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { ProjectContext } from '../ProjectContext'
 
 const Contact = () => {
   return (
