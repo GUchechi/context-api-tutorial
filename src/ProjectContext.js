@@ -3,7 +3,7 @@ import React, { createContext, useState} from 'react';
 export const ProjectContext = createContext();
 
 export const ProjectState = ({children}) => {
-    const [name, SetName] = useState("")
+    const [name, SetName] = useState("John")
 
     const handler = () => {
         console.log("Hello World!");
