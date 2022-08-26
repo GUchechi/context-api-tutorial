@@ -1,10 +1,8 @@
 import React from 'react'
 
-const ContactInfo = ({number}) => {
+const ContactInfo = () => {
   return (
-    <div>
-        <h1>{number}</h1>
-    </div>
+    <div>ContactInfo</div>
   )
 }
 
